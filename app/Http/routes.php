@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Noticias@indexNotice');
 
 Route::get('/notice', function () {
     return view('addNotice');
