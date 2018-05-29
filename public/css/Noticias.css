@@ -1,0 +1,32 @@
+* {
+  margin: 0; padding: 0; border: 0 none; position: relative;
+}
+*, *:after, *:before {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+html {
+  background: #FFEEAA;
+  color: #8B6615;
+}
+article {
+  margin-left: 0;
+  text-align: left;
+  width: 90%;
+  margin: 2rem auto;
+  line-height: 1.5rem;
+}
+h1 {
+  font-weight: 100;
+  color: #3F7963;
+}
+p {
+  max-height: 3rem;
+  overflow: hidden;
+}
+p:after {
+  content:'...';
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+}

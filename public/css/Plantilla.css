@@ -1,0 +1,32 @@
+html,body
+{
+	height:100%;
+	background-color:#FFFFFF;
+}
+
+.navbar {
+	background: #000;
+}
+
+.nav li a, .navbar-brand {
+	color: #fff;
+}
+
+.navbar-brand:hover{
+	background: #0c0c0c;
+	font-size: large;
+	color: #fff;
+}
+
+.nav li a:hover, .nav li a:focus, .nav li a:active {
+	background: #0c0c0c;
+	font-size: large;
+}
+
+#tituloNot {
+	color: #000;
+}
+
+.box-title{
+	margin-left: 40%;
+}
